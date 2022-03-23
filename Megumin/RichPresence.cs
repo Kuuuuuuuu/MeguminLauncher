@@ -30,11 +30,6 @@ namespace Megumin
                     LargeImageKey = "megumin",
                     LargeImageText = "Megumin"
                 },
-                Buttons = new[]
-                {
-                    new Button {Label = "Discord", Url = "https://discord.gg/pPUEYm9N9P"},
-                    new Button {Label = "Github", Url = "https://github.com/KohakuChanX"}
-                },
 
                 Timestamps = new Timestamps
                 {
@@ -75,13 +70,6 @@ namespace Megumin
                     LargeImageText = "Megumin"
                 },
 
-                Buttons = new[]
-                {
-                    new Button {Label = "Discord", Url = "https://discord.gg/pPUEYm9N9P"},
-                    new Button {Label = "Github", Url = "https://github.com/KohakuChanX"}
-                },
-
-
                 Timestamps = new Timestamps
                 {
                     Start = _discordTime != "" && int.TryParse(_discordTime, out TimestampStart)
@@ -111,12 +99,6 @@ namespace Megumin
                 {
                     LargeImageKey = "megumin",
                     LargeImageText = "Megumin"
-                },
-
-                Buttons = new[]
-                {
-                    new Button {Label = "Discord", Url = "https://discord.gg/pPUEYm9N9P"},
-                    new Button {Label = "Github", Url = "https://github.com/KohakuChanX"}
                 },
 
                 Timestamps = new Timestamps
